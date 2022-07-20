@@ -1,0 +1,15 @@
+Selenium Class 7
+
+Handling multiple windows (tabs):
+In order to handle multiple windows we will be using:
+getWindowHandle()
+getWindowHandles()
+
+WindowHandle:
+is a unique ID that holds the address of the window or a tab
+It is approximately a 40 alphanumeric character ID
+
+the original page where you navigate will be called parent handle
+and additional tab opened afterwards will be called child handle
+
+Most of the time when you interact with links they will open a new tab or a window

@@ -1,0 +1,14 @@
+Explicit Wait :
+ Is used to tell the WebDriver to wait for a certain condition before throwing an
+ exception error for that specific condition.
+
+Explicit Wait works with ExpectedConditions class and it waits untill a certain condition is met
+ or the given time is achieved.
+
+ (*) sign in xpath is a wild card which can identify any tagname
+ e.g   //*[@name='websubmit']
+
+ Fluent Wait :
+  Its considered a global wait
+  It tells the WebDriver to wait for certain condition as well as its frequency
+  before throwing an exception

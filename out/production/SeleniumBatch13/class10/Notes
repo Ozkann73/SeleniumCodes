@@ -1,0 +1,14 @@
+Calenders :
+ Calenders are also called as Date Pickers
+
+How to Handle Calenders :
+1) Click on the calender
+2) Locate the month and get the text
+3) If the desired text is not visible --> We will keep clicking on nextButton and keep updating month text
+4) As soon as we find desired text --> grab all the cells from table
+5) Loop through the cells
+6) Once the cell value is matched with our condition --> click on the matched date
+
+Why do we need screenshots in testing
+ In testint it is very important to take screenshots in order to prove that our test
+ covered certain functionality

@@ -15,22 +15,22 @@ public class WebTablesWithPagination {
         WebDriver driver = new ChromeDriver();
         driver.get(url);
 
-        List<WebElement> rows = driver.findElements(By.xpath("//tbody[@id = 'myTable']/tr"));
-        WebElement nextButton = driver.findElement(By.xpath("//a[@class = 'next_link']"));
-        boolean studentNotFound = true;
-
-        while(studentNotFound) {
-            for(WebElement row: rows) {
+        List<WebElement> rows = driver.findElements(By.xpath("//tbody[@id='myTable']/tr"));
+        WebElement nextButton = driver.findElement(By.xpath("//a[@class='next_link']"));
+        boolean flag = true;
+        while (flag) {
+            for (WebElement row : rows) {
                 String rowText = row.getText();
-                if(rowText.contains("Archy J")) {
-                    studentNotFound = false;
+                if (rowText.contains("Archy J")) {
+                    flag = false;
                     System.out.println(rowText);
                     break;
                 }
             }
-            if(studentNotFound) {
+            if (flag) {
                 nextButton.click();
             }
         }
+
     }
-    }
+}

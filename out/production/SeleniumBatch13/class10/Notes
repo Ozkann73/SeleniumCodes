@@ -10,5 +10,8 @@ How to Handle Calenders :
 6) Once the cell value is matched with our condition --> click on the matched date
 
 Why do we need screenshots in testing
- In testint it is very important to take screenshots in order to prove that our test
- covered certain functionality
+ In testing it is very important to take screenshots in order to prove that our test
+ covered certain functionality.
+
+ in selenium in order to take screenshot we will be using
+ TakesScreenshot interface

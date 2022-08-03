@@ -1,0 +1,35 @@
+
+Actions Class :
+ Is given by Selenium to capture keyboard and mouse events such as :
+
+ move to element
+ drag and drop
+ double click
+ right click
+
+Perform is to perform a certain action from the actions class
+
+If regular click doesnt work we can use alternative way of having Actions class click method
+======================================================================================================
+Upload Documents :
+ Inorder to upload documents suing Selenium we simply do
+ sendKeys(filePath)
+
+ If sendKeys does not work, we can use Robot interface.
+======================================================================================================
+JavaScriptExecutor :
+ It is a library in Selenium which can be executed in different programming languages
+ (java, c# , python etc.)
+
+ JavaScriptExecutor is an interface
+
+ JSExecutor has 2 methods:
+ executeScript()
+ executeAsyncScript()
+
+ Actions which can be performed by using JavaScriptExecutor:
+ click on the element v--> if regular click() and Actions class click() doesnt work we use JSExecutor click
+ scroll through the page
+ highlight the element
+ scroll to a specific element
+ open a new tab

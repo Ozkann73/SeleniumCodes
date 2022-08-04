@@ -1,0 +1,14 @@
+
+POM (Page Object Model)
+ It is a design pattern which allows us to enhance the maintenance and reduce code duplication
+
+
+Advantages Of POM :
+1) Code reusability
+2) Code maintainability
+3) Object repository
+4) Readability
+
+How to Implement the POM :
+1) POM without PageFactory
+2) POM with PageFactory

@@ -3,7 +3,8 @@ package tests;
 import pages.LoginPage;
 import testbase.BaseClass;
 
-public class LoginPageTest   {
+public class LoginPageTest {
+
     public static void main(String[] args) {
         BaseClass.openWithSpecificUrl("http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php");
         LoginPage loginPage = new LoginPage();
@@ -12,6 +13,5 @@ public class LoginPageTest   {
         loginPage.loginButton.click();
 
         BaseClass.tearDown();
-
     }
 }
